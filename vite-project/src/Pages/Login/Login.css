@@ -1,0 +1,76 @@
+.mainbody{
+    width: 100%;
+    height: 95vh;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.maincontainer{
+    width: 40%;
+    height: 70vh;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.formwrapper{
+    width: 70%;
+    height: 78%;
+    background-color: white;
+    gap: 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-top: 8px solid blue;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 8px solid orangered;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.namewrapper{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+    /* background-color: blue; */
+    height: 80px;
+    /* height: 20px; */
+    /* display: flex; */
+    /* flex-direction: column; */
+}
+
+.usernamewrapper{
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.btn{
+    width: 60%;
+    height: 40px;
+    margin-top: 25px;
+    margin-left: 75px;
+    background-color: rgba(0, 0, 255, 0.829);
+    font-weight: bolder;
+    font-size: large;
+    border: none;
+    color: white;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: orangered;
+    color: white;
+}
+
+.loginwrapper{
+    width: 90%;
+    display: flex;
+    /* justify-content: space-around; */
+    /* margin-top: 25px; */
+    margin-left: 180px;
+}
+
